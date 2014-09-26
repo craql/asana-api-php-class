@@ -2,7 +2,7 @@
 require_once('../asana.php');
 
 // See class comments and Asana API for full info
-$asana = new Asana(array('apiKey' => 'XXXXXXXXXXXXXXXXXXX')); // Your API Key, you can get it in Asana
+$asana = new Asana(array('apiKey' => '1zPU8hPH.vHEjx2kpnRe0j8koRm3XCo0')); // Your API Key, you can get it in Asana
 
 $result = $asana->getProjects();
 
